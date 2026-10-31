@@ -1,0 +1,25 @@
+一方科技 V3 · 内容与视觉参考
+整理日期：2026-10-31
+
+官网定位：企业 AI 应用、业务工作流与系统实施服务；财税、税务、法务、研发与高企管理为应用场景。
+
+技术视觉参考（未将第三方截图作为一方科技产品）：
+Dify：https://github.com/langgenius/dify
+n8n：https://github.com/n8n-io/n8n
+React Flow：https://github.com/xyflow/xyflow
+AI 工作流界面示例：https://reactflow.dev/ui/templates/ai-workflow-editor
+
+内容依据：
+国家税务总局：研发费用归集的会计核算、高新技术企业认定和加计扣除三个口径
+https://www.chinatax.gov.cn/n810219/n810744/n3213637/n3213647/c3214256/content.html
+用途：支持三种归集口径存在差异的原则，不引用历史比例作为当前计算规则。
+
+政府公开转载：高新技术企业认定管理工作指引
+https://www.szns.gov.cn/ztzl/nsrdzt/2026ggpyfwzq/zczq/content/post_12864266.html
+用途：按研发活动组织费用与材料。页面 2026 日期为转载时间，不代表新制定文件。
+
+财政部：关于规范电子会计凭证报销入账归档的通知
+https://www.mof.gov.cn/zcsjtsgb/gfxwj/202003/t20200323_3583778.htm
+用途：电子原件、审签、防重复入账与档案管理的相关背景。
+
+系统图和图表为重新绘制的方案示意；数据均为合成示例，不代表客户实绩、产品已上线或自动合规结论。

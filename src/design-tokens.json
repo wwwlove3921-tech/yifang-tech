@@ -1,0 +1,11 @@
+{
+  "brand": "Yifang Technology",
+  "version": "1.0",
+  "colors": {"pine": "#103E36", "mint": "#65E2BE", "paper": "#F4F6F0", "ink": "#192B29", "lime": "#DCE8A3", "muted": "#63786D", "line": "#DCE3D9", "white": "#FFFFFF"},
+  "fontFamily": ["Avenir Next", "PingFang SC", "Microsoft YaHei", "Arial", "sans-serif"],
+  "typeScale": {"display": {"size": 64, "lineHeight": 1.22}, "section": {"size": 42, "lineHeight": 1.38}, "body": {"size": 15, "lineHeight": 1.9}},
+  "spacing": [4, 8, 16, 24, 32, 48, 64, 96],
+  "radius": {"button": 3, "card": 5, "dashboard": 9},
+  "icon": {"viewBox": "0 0 36 36", "strokeWidth": 1.7, "lineCap": "round"},
+  "interaction": {"focus": "3px solid #2D987B", "hover": "#1E5949", "reducedMotion": true}
+}

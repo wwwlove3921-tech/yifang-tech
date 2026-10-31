@@ -1,0 +1,11 @@
+import {execFileSync} from 'node:child_process';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+execFileSync(process.execPath,[path.join(root,'src/scripts/build.mjs')],{stdio:'inherit'});
+fs.mkdirSync(path.join(root,'docs'),{recursive:true});
+fs.copyFileSync(path.join(root,'src/dist/yifang.html'),path.join(root,'docs/index.html'));
+fs.copyFileSync(path.join(root,'src/dist/yifang-brand.html'),path.join(root,'docs/yifang-brand.html'));
+fs.writeFileSync(path.join(root,'docs/.nojekyll'),'');
+console.log('GitHub Pages files prepared in docs/');
